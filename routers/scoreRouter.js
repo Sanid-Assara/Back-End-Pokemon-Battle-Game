@@ -1,11 +1,5 @@
 import express from "express";
-import {
-  getScores,
-  createScore,
-  getScoreById,
-  updateScore,
-  deleteScore,
-} from "../controllers/scores.js";
+import { getScores, createScore } from "../controllers/scores.js";
 
 const scoreRouter = express.Router();
 
