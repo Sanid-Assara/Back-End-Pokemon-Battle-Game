@@ -1,5 +1,5 @@
 import express from 'express';
-import { getLeaderboard } from '../controllers/leaderboardController.js';
+import { getLeaderboard } from '../Controllers/leaderboardController.js';
 
 const router = express.Router();
 
